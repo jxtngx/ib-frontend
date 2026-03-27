@@ -2,6 +2,8 @@
 
 Next.js dashboard for live **MES** futures data from Interactive Brokers: ticks, volume, limit order book depth, and related market context (VIX, options payloads when provided by the upstream producer).
 
+![ibfrontend img](ibfrontend.jpeg)
+
 ## How it works
 
 1. A separate tick producer connects to IB and exposes a **TCP** server that emits **NDJSON** lines (one JSON object per line).
